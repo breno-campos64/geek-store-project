@@ -1,0 +1,10 @@
+post http://localhost:3000/cadastro/ HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Boneco All Might",
+    "preco": 289.89,
+    "categoria": "Action Figure",
+    "quantidade": 3,
+    "detalhes": "Material: Cloreto de polivinilo, Dimensões: 28cm x 14cm"
+}

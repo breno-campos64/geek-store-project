@@ -1,0 +1,10 @@
+patch http://localhost:3000/produtos/9 HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Mangá Dragon Ball Super Vol 1",
+    "preco": 39.99,
+    "categoria": "Livro",
+    "quantidade": 18,
+    "detalhes": "Editora: Panini, Páginas: 192, Dimensões: 20cm x 13cm"
+}
